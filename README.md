@@ -82,7 +82,7 @@ The project author has confirmed that the calculations have been validated. The 
 
 ## Dataset
 
-The dataset was obtained from Kaggle. The exact dataset page and source URL could not be recovered when this project was documented.
+The dataset was originally obtained from Kaggle. The exact dataset page and download URL could not be recovered during documentation. The CSV is not included in this repository because its redistribution terms have not been confirmed.
 
 ## How to View the Project
 
@@ -109,4 +109,4 @@ Samsung-Sales-Performance/
 
 ## Notes
 
-This project is presented for portfolio and learning purposes. The dataset was obtained from Kaggle, but its original URL was not recoverable during documentation.
+This project is presented for portfolio and learning purposes. The dataset's original source URL was not recoverable when the repository was documented.
