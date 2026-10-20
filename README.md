@@ -2,60 +2,83 @@
 
 An interactive Microsoft Power BI report exploring Samsung sales performance from 2021–2024, with views of executive KPIs, product performance, customer behaviour, sales trends, and business recommendations.
 
-## Overview
+## Project Overview
 
-This project brings sales metrics and business-focused analysis together in a five-page Power BI report. It is designed to help readers explore revenue performance, product and customer patterns, discounts, returns, and regional trends.
+This five-page report uses interactive visualizations to explore revenue performance, product and customer patterns, discounts, returns, and regional trends.
 
-## Dashboard Preview
+**Tools:** Microsoft Power BI Desktop
 
-Screenshots are organized in the `screenshots/` folder with descriptive filenames for easier navigation.
-
-### 1. Executive Overview
+## Featured Dashboard: Executive Overview
 
 ![Samsung Executive Sales Dashboard](screenshots/01-executive-overview.png)
 
-The overview highlights **$22.91M net revenue**, **37K units sold**, **16K transactions**, and an **average selling price of $626.33**, alongside monthly revenue, regional revenue, product categories, customer segments, sales channels, and payment methods.
+The Executive Overview brings together the main performance indicators and supporting views across months, regions, product categories, customer segments, sales channels, and payment methods.
 
-### 2. Product Performance
+Headline metrics shown in the report include:
+
+- **$22.91M** net revenue
+- **37K** total units sold
+- **16K** total transactions
+- **$626.33** average selling price
+
+## Explore the Other Dashboard Pages
+
+The report also includes four detailed pages. Expand a section below to view each dashboard.
+
+<details>
+<summary><strong>Product Performance</strong></summary>
 
 ![Samsung Product Performance Dashboard](screenshots/02-product-performance.png)
 
-This page explores revenue by product, colour, storage, and 5G upgrade status, as well as units sold and revenue by category and returns by category. It also shows **73 products**, **11 categories**, and a displayed **4.89% exchange rate**.
+Explores revenue by product, colour, storage, and 5G upgrade status, along with units sold and revenue by category and returns by category.
 
-### 3. Customer Behaviour
+Metrics displayed include **73 total products**, **11 total categories**, and a **4.89% exchange rate**.
+
+</details>
+
+<details>
+<summary><strong>Customer Behaviour</strong></summary>
 
 ![Samsung Customer Behaviour Dashboard](screenshots/03-customer-behaviour.png)
 
-This page examines customer age groups, previous device operating systems, customer-segment ratings, return rates, payment methods, and sales channels. The displayed headline metrics are **3.74 average rating** and **9.21% return rate**.
+Examines customer age groups, previous device operating systems, ratings by customer segment, return rates, payment methods, and sales channels.
 
-### 4. Sales Performance
+Headline metrics shown are **3.74 average rating** and **9.21% return rate**.
+
+</details>
+
+<details>
+<summary><strong>Sales Performance</strong></summary>
 
 ![Samsung Sales Performance Dashboard](screenshots/04-sales-performance.png)
 
-This page tracks monthly net revenue, return rates, discount trends, quarterly net revenue, average discounts by category, and gross revenue compared with net revenue. Its headline figures include **$24.3M gross revenue**, **$22.91M net revenue**, **$1.39M discount value**, and **5.73% discount impact**.
+Tracks monthly net revenue, return trends, discount trends, quarterly net revenue, average discounts by category, and gross revenue compared with net revenue.
 
-### 5. Executive Insights
+Headline metrics shown include **$24.3M gross revenue**, **$22.91M net revenue**, **$1.39M discount value**, and **5.73% discount impact**.
+
+</details>
+
+<details>
+<summary><strong>Executive Insights & Strategic Recommendations</strong></summary>
 
 ![Samsung Executive Insights Dashboard](screenshots/05-executive-insights.png)
 
-The final page summarizes the report's key findings and presents strategic recommendations related to product investment, regional growth, customer engagement, discount strategy, 5G-enabled devices, and inventory planning.
+Summarizes the report's key findings and recommendations related to product investment, regional growth, customer engagement, discount strategy, 5G-enabled devices, and inventory planning.
 
-## Key Findings Presented in the Report
+</details>
 
-The report's Executive Insights page highlights these findings:
+## Key Findings
+
+The report's Executive Insights page highlights the following:
 
 - **Product category:** Smart TVs generated the highest revenue among the categories shown.
 - **Regional performance:** Europe and Asia were identified as the strongest-performing regions.
 - **Customer segment:** Government customers were identified as generating the highest revenue.
 - **5G-enabled devices:** Approximately 37% of total revenue was attributed to 5G-enabled devices.
-- **Discounts:** The report states that discounts reduced gross revenue by approximately 5.7%.
+- **Discounts:** The report indicates a discount impact of approximately 5.7%.
 - **Seasonality:** Monthly revenue fluctuated across the period analyzed.
 
-These findings and metrics have been validated as part of the project, as confirmed by the project author.
-
-## Tools
-
-- **Microsoft Power BI Desktop** — report development, interactive visuals, and dashboard presentation.
+The project author has confirmed that the calculations have been validated. The findings above describe the analysis presented in the Power BI report.
 
 ## Dataset
 
@@ -63,9 +86,9 @@ The dataset was obtained from Kaggle. The exact dataset page and source URL coul
 
 ## How to View the Project
 
-1. Open the repository and download `Samsung Sales Performance.pbix`.
-2. Open the file in Microsoft Power BI Desktop.
-3. Navigate through the five report pages and interact with the available filters and visuals.
+1. Download `Samsung Sales Performance.pbix` from this repository.
+2. Open it in Microsoft Power BI Desktop.
+3. Navigate through the report pages and interact with the available filters and visuals.
 
 Refreshing the report may require the original dataset or a configured data connection.
 
@@ -86,4 +109,4 @@ Samsung-Sales-Performance/
 
 ## Notes
 
-This project is presented for portfolio and learning purposes. Dataset attribution is noted to the best of the information available; the original Kaggle URL was not recoverable during documentation.
+This project is presented for portfolio and learning purposes. The dataset was obtained from Kaggle, but its original URL was not recoverable during documentation.
